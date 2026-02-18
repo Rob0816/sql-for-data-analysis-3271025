@@ -8,6 +8,8 @@ SELECT UPPER(
       ' ',
       Zipcode
     )
-  ) AS NEW_ADDRESS
+  ) AS NEW_ADDRESS,
+  LastName
 from Customer
+  WHERE LastName ='Smith'
 LIMIT 10
